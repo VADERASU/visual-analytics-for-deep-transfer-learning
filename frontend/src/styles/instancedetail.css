@@ -1,0 +1,22 @@
+.selected-list-images {
+    /*width: 146px;*/
+    width: 100%;
+    cursor: pointer;
+}
+
+.item-label {
+    color: #777777 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+.item-content {
+    color: #777777 !important;
+    font-size: 12px !important;
+    /*font-weight: bold !important;*/
+}
+
+.class-label-tag {
+    /*width: 30px;*/
+    /*height: 20px;*/
+}

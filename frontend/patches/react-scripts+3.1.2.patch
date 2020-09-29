@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-scripts/config/webpack.config.js b/node_modules/react-scripts/config/webpack.config.js
+index f757827..f16d95e 100644
+--- a/node_modules/react-scripts/config/webpack.config.js
++++ b/node_modules/react-scripts/config/webpack.config.js
+@@ -150,7 +150,7 @@ module.exports = function(webpackEnv) {
+       ? shouldUseSourceMap
+         ? 'source-map'
+         : false
+-      : isEnvDevelopment && 'cheap-module-source-map',
++      : isEnvDevelopment && 'eval-source-map',
+     // These are the "entry points" to our application.
+     // This means they will be the "root" imports that are included in JS bundle.
+     entry: [

@@ -1,0 +1,11 @@
+#stat-view .matrix-view-card > .ant-card-head > .ant-card-head-wrapper > .ant-card-extra {
+    padding: 6px 0 !important;
+}{
+    /*background-color: white;*/
+    width: 100%;
+}
+
+.ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-thead > tr > th {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

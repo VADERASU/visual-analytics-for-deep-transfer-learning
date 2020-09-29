@@ -1,0 +1,271 @@
+
+/* (186, 192, 203) */
+
+.important-barrier-lines {
+    stroke: #555555;
+    stroke-width: 1;
+}
+
+/**
+ * Outer frame
+ */
+.outer-frame-rect {
+    stroke-width: 0.5;
+    stroke: #555555;
+    fill: none;
+    /*stroke-dasharray: 4, 1;*/
+}
+
+rect.outer-frame-fan-out {
+    stroke: none;
+}
+
+line.frame-separate-line {
+    stroke: #555555;
+    stroke-width: 0.5;
+    /*stroke-dasharray: 4, 1;*/
+}
+
+text.matrix-title-text {
+    font-size: 17px;
+    font-weight: bolder;
+    alignment-baseline: ideographic;
+    text-anchor: start;
+    fill: rgba(0, 0, 0, 0.85);
+}
+
+/**
+ * Matrix cells
+ */
+.cell-rect:hover {
+    stroke-width: 2;
+    stroke: rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+}
+
+/**
+ * Less-important histograms
+ */
+.hist-bars {
+    stroke-width: 0.5;
+    stroke: rgb(186, 192, 203);
+    fill: rgb(186, 192, 203);
+}
+
+.hist-x-axis > path.domain {
+    stroke: rgb(186, 192, 203);
+    stroke-width: 3;
+    stroke-linecap: round;
+}
+
+.hist-background-rect {
+    fill: rgb(232, 234, 242);
+    fill-opacity: 0.45;
+    stroke: none;
+}
+
+.hist-label {
+    text-anchor: start;
+    alignment-baseline: hanging;
+    font-weight: bold;
+    font-size: 12px;
+    fill: rgba(0, 0, 0, 0.45);
+}
+
+/**
+ * Neuron text styles
+ */
+.neuron-index-text {
+    font-size: 12px;
+    /*font-family: Arial, Sans-Serif, serif;*/
+    font-family: Lato, Sans-Serif, serif;
+    cursor: pointer;
+    /*fill: rgb(38, 38, 38) !important;*/
+}
+
+.neuron-index-text:hover {
+    /*font-family: Arial, Sans-Serif, serif;*/
+    font-family: Lato, Sans-Serif, serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.neuron-index-text-left {
+    /*font-family: Arial, Sans-Serif, serif;*/
+    font-family: Lato, Sans-Serif, serif;
+    text-anchor: end;
+    alignment-baseline: middle;
+}
+
+.neuron-index-text-right {
+    /*font-family: Arial, Sans-Serif, serif;*/
+    font-family: Lato, Sans-Serif, serif;
+    text-anchor: middle;
+    alignment-baseline: ideographic;
+}
+
+/**
+ * Edges
+ */
+/*rect.edge-source-important-matrix-cells, rect.edge-target-important-matrix-cells {*/
+/*    stroke-width: 0.5;*/
+/*    stroke: rgb(186, 192, 203);*/
+/*}*/
+
+/*rect.background-rect {*/
+/*    fill-opacity: 0.8;*/
+/*}*/
+
+/*text.importance-labels {*/
+/*    font-size: 12px;*/
+/*    !*font-family: Arial, Sans-Serif, serif;*!*/
+/*    font-family: Lato, Sans-Serif, serif;*/
+/*}*/
+
+/*path.edge-curves {*/
+/*    fill: none;*/
+/*    !*stroke-opacity: 0.6;*!*/
+/*}*/
+
+
+/*g.edge-cell-container:hover rect.edge-cell-rect {*/
+/*    stroke-width: 1;*/
+/*    stroke: rgba(0, 0, 0, 0.45);*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*path.edge-cell-src-correspond-line {*/
+/*    stroke-width: 1;*/
+/*    fill: none;*/
+/*    stroke-linecap: butt;*/
+/*    cursor: pointer;*/
+/*    !*display: none;*!*/
+/*}*/
+
+/*rect.edge-block-frame {*/
+/*    stroke-width: 0.5;*/
+/*    stroke: #555555;*/
+/*    fill: none;*/
+/*    stroke-dasharray: 4, 1;*/
+/*}*/
+
+img.weight-image {
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    image-rendering: pixelated;
+}
+
+circle.target-src-correspond-circle {
+    stroke: #777777;
+    stroke-width: 0.5;
+    cursor: pointer;
+}
+
+rect.edge-cell-rect {
+    stroke: rgba(0, 0, 0, 0.65);
+    stroke-width: 1;
+    cursor: pointer;
+}
+
+
+/* box plots */
+line.box-plot-center-line {
+    stroke: #777777;
+    stroke-width: 1.5;
+}
+
+line.box-plot-median-line {
+    stroke: #777777;
+    stroke-width: 1;
+}
+
+rect.box-plot-rect {
+    stroke: #777777;
+    stroke-width: 1;
+    fill-opacity: 0.5;
+}
+
+g.edge-box-bar-group {
+    cursor: pointer;
+}
+
+g.box-plot-pie-glyph {
+    cursor: pointer;
+}
+
+path.box-plot-pie-arc {
+    stroke: #777777;
+    stroke-width: 0.5;
+}
+
+rect.edge-non-to-non-hist-bar {
+    fill: rgb(186, 192, 203);
+    stroke: none;
+}
+
+text.edge-non-to-non-hist-text {
+    fill: rgba(0, 0, 0, 0.85);
+    font-size: 12px;
+    font-weight: bold;
+    alignment-baseline: central;
+    text-anchor: middle;
+}
+
+line.edge-matrix-flow-line {
+    stroke-opacity: 0.35;
+}
+
+line.edge-matrix-flow-line:hover {
+    stroke-opacity: 0.8;
+}
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fefefe;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+rect.edge-outer-frame-in-to-in,
+rect.edge-outer-frame-in-to-non-in,
+rect.edge-outer-frame-non-in-to-in,
+rect.edge-outer-frame-non-in-to-non-in,
+line.edge-outer-frame-split-line {
+    stroke: rgba(0, 0, 0, 0.85);
+    stroke-width: 1;
+    stroke-dasharray: 4, 2;
+    fill: none;
+}
+
+text.edge-title-text {
+    font-size: 17px;
+    font-weight: bolder;
+    alignment-baseline: ideographic;
+    text-anchor: start;
+}
+
+text.edge-scale-label-top {
+    alignment-baseline: ideographic;
+    text-anchor: middle;
+}
+
+text.edge-scale-label-left {
+    alignment-baseline: central;
+    text-anchor: end;
+}
+
+text.edge-scale-label-style {
+    font-size: 12px;
+    font-weight: normal;
+    fill: rgba(0, 0, 0, 0.65);
+}
+
+text.edge-weight-label {
+    font-size: 12px;
+    font-weight: bold;
+    fill: rgba(0, 0, 0, 0.85);
+}

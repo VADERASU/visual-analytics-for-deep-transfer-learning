@@ -1,0 +1,22 @@
+#matrix-view {
+    width: 100%;
+}
+
+
+.matrix-view-card > .ant-card-head > .ant-card-head-wrapper > .ant-card-head-title,
+.matrix-view-card > .ant-card-head > .ant-card-head-wrapper > .ant-card-extra {
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+
+.feature-view-drawer > .ant-drawer-content-wrapper > .ant-drawer-content > .ant-drawer-wrapper-body > .ant-drawer-header {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+.inner-detail-panel {
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, .15);
+}

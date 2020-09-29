@@ -1,0 +1,50 @@
+{
+	"name": "transfer-learning-va",
+	"version": "0.1.0",
+	"proxy": "http://localhost:5000",
+	"private": true,
+	"dependencies": {
+		"antd": "^3.26.12",
+		"d3": "^5.15.0",
+		"d3-lasso": "^0.0.5",
+		"d3-tip": "^0.9.1",
+		"echarts-for-react": "^2.0.15-beta.1",
+		"lodash": "^4.17.15",
+		"patch-package": "^6.1.2",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-redux": "^7.2.0",
+		"react-scripts": "3.1.2",
+		"redux": "^4.0.5",
+		"redux-thunk": "^2.3.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"patch-react-scripts": "patch-package react-scripts",
+		"postinstall": "patch-package"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"echarts": "^4.6.0",
+		"eslint-config-auth0-base": "^13.1.0",
+		"eslint-plugin-import": "^2.18.2",
+		"react-breakpoint-fix": "^1.0.7"
+	}
+}

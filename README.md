@@ -1,2 +1,2 @@
-# visual-analytics-for-deep-transfer-learning
-The repository for the paper "A Visual Analytics Framework for Explaining and Diagnosing the Transfer Learning Processes".
+# transfer-learning-va-backend
+Backend of the Transfer Learning VA Project

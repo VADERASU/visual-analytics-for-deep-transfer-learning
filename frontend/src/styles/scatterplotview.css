@@ -1,0 +1,48 @@
+.point-paths {
+    fill-opacity: 0.7;
+    cursor: pointer;
+}
+
+.selected {
+    /*stroke: orangered !important;*/
+    /*filter: url(#glow-shadow);*/
+    filter: url(#glow-shadow);
+}
+
+path.glyphs-mispredicted {
+    stroke: rgba(0, 0, 0, 0.80);
+    stroke-width: 1;
+}
+
+path.glyphs-predicted {
+    stroke: #777777;
+    stroke-width: 0.5;
+}
+
+.highlighted {
+    /*stroke-opacity: 1 !important;*/
+    /*stroke:*/
+    /*filter: url(#highlighted-shadow);*/
+    stroke-width: 2 !important;
+    stroke: #d41939 !important;
+}
+
+.lasso path {
+    stroke: rgb(120, 120, 120);
+    stroke-opacity: 0.85;
+    stroke-width: 1.5px;
+}
+
+.lasso .drawn {
+    fill-opacity: .05;
+}
+
+.lasso .loop_close {
+    fill: none;
+    stroke-dasharray: 4, 4;
+}
+
+.lasso .origin {
+    fill: #3399FF;
+    fill-opacity: .5;
+}

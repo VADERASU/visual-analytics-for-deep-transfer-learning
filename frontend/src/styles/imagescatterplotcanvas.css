@@ -1,0 +1,47 @@
+.select-labels {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.feature-select-options {
+    flex-grow: 1;
+}
+
+text.source-target-labels {
+    font-size: 20px;
+    fill: #777777;
+    fill-opacity: 0.5;
+    font-weight: bolder;
+    alignment-baseline: central;
+    text-anchor: middle;
+}
+
+line.discriminate-axis-line {
+    stroke: #777777;
+    stroke-opacity: 0.8;
+    stroke-width: 3;
+    marker-end: url(#arrow);
+    cursor: pointer;
+}
+
+path.feature-point-path {
+    cursor: pointer;
+}
+
+line.discriminate-axis-line:hover {
+    stroke-width: 5;
+}
+
+text.discriminate-axis-line-text {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+text.discriminate-axis-line-text-disable {
+    display: none !important;
+}
+
+path.arrowHead {
+    fill: #777777;
+    fill-opacity: 1.0;
+}

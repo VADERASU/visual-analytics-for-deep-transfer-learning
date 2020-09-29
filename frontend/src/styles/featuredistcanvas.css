@@ -1,0 +1,26 @@
+line.feature-hist-middle-line {
+    stroke: rgb(181, 189, 203);
+    stroke-width: 1;
+    stroke-linecap: round;
+}
+
+rect.feature-dist-bars {
+    stroke: rgb(181, 189, 203);
+    stroke-width: 1;
+}
+
+text.weight-text-labels {
+    text-anchor: start;
+    alignment-baseline: hanging;
+    font-size: 11px;
+    font-weight: bold;
+    /*font-family: Arial, Sans-Serif, serif;*/
+    font-family: Lato, Sans-Serif, serif;
+    fill: rgba(0, 0, 0, 0.45);
+}
+
+text.num-labels {
+    font-size: 11px;
+    alignment-baseline: central;
+    text-anchor: end;
+}
