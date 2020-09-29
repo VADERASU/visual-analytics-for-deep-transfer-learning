@@ -1,5 +1,5 @@
 # visual-analytics-for-deep-transfer-learning
-The repository for the paper "A Visual Analytics Framework for Explaining and Diagnosing Transfer Learning Processes".
+This repository contains the code for the paper "A Visual Analytics Framework for Explaining and Diagnosing Transfer Learning Processes".
 
 [Arxiv Link](https://arxiv.org/abs/2009.06876)
 
