@@ -3,7 +3,8 @@ from flask import request
 import numpy as np
 from itertools import chain
 from uuid import uuid4
-from MulticoreTSNE import MulticoreTSNE as TSNE
+# from MulticoreTSNE import MulticoreTSNE as TSNE
+from sklearn.manifold import TSNE as TSNE
 
 from resources.utils import reformat_activation
 from modules.constants import TSNE_PERPLEXITY, TSNE_LR, TSNE_N_JOBS
@@ -85,5 +86,5 @@ def tsne_helper(X):
     return TSNE(
         n_components=2,
         perplexity=TSNE_PERPLEXITY,
-        learning_rate=TSNE_LR, n_jobs=TSNE_N_JOBS
+#         learning_rate=TSNE_LR, n_jobs=TSNE_N_JOBS
     ).fit_transform(X)
