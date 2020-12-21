@@ -86,5 +86,8 @@ def tsne_helper(X):
     return TSNE(
         n_components=2,
         perplexity=TSNE_PERPLEXITY,
+#         "n_jobs" new in version 0.22.
+#         https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html#examples-using-sklearn-manifold-tsne
 #         learning_rate=TSNE_LR, n_jobs=TSNE_N_JOBS
+        learning_rate=TSNE_LR
     ).fit_transform(X)
